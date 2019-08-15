@@ -9,7 +9,9 @@ namespace HttpClientTest
 {
     public class Program
     {
+        // Set your Mopidy Address
         private const string MopidyRpcUrl = "http://192.168.254.251:6680/mopidy/rpc";
+
         private static int _count = 0;
 
         public static void Main(string[] args)
